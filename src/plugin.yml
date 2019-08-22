@@ -1,0 +1,15 @@
+name: MysticBridge
+version: 1.0
+author: Rxhys
+main: club.MysticPractice.MysticBridge.MainClass
+
+permissions:
+  mystic.chatcolor:
+    default: op
+    description: Allows players to format chat using color codes.
+
+commands:
+  verify:
+    description: Allows players to link their Discord account to their Minecraft account.
+  discordsettings:
+    description: Allows players to edit their prefrences for Discord.
