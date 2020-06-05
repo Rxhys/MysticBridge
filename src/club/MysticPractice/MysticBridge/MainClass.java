@@ -32,7 +32,7 @@ public class MainClass extends JavaPlugin {
 	public void initDiscordBot() {
 		try {
 			jda = new JDABuilder(AccountType.BOT)
-					.setToken("NjA1NDYwNTk0NjY5MTI1NzA3.XT81Tw.Azpje5_VbH7v0lIHJ1-bFr0wbR4")
+					.setToken("TOKEN")
 					.build();
 
 			jda.getEventManager().register(new DiscordVerifyCommand(this));
